@@ -1,0 +1,68 @@
+.team-bignum-wrap{
+    background-color: #fff;
+    height: 20vh;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+}
+
+.team-bignum-wrap > div{
+    display: flex;
+    width: 70%; 
+    margin: 0 auto;
+    
+}
+
+.team-text{
+    display: flex; 
+    align-items: center;
+    text-align: left;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    color: var(--gray-2);
+}
+
+.mountains-wrap{
+    height: 5vh; 
+    background-color: var(--dark-blue-2);
+    color: var(--gray-1);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.mountains-wrap > div{
+    margin: 0 auto; 
+    width: 70%;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+}
+.mountains-wrap > div > a {
+    padding: 0 10px;
+    color: var(--gray-1);
+    text-decoration: none;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.mountains-wrap > div > a:hover {
+    text-decoration: underline;
+    background-color: var(--gray-1);
+    color: var(--dark-blue-2);
+}
+
+@media only screen and (max-width: 768px){
+    .team-bignum-wrap{
+        height: 35vh;
+    }
+    .team-bignum-wrap > div{
+        width: 95%;
+        flex-direction: column;
+    }
+    .mountains-wrap>div {
+        width: 95%; 
+        justify-content: center;
+    }
+}
+
