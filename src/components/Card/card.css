@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 4em;
+}
+.card > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.jhmYzC.rec-dot{ 
+    background-color: rgb(167, 167, 167);
+}
+.krmNah.rec-dot{
+    background-color: white;
+    box-shadow: 0 0 1px 3px rgb(167, 167, 167);
+}
+.krmNah.rec-dot:hover,
+.krmNah.rec-dot:focus {
+    cursor: pointer;
+    box-shadow: 0 0 1px 3px rgb(167, 167, 167);
+}
+
+.rec-arrow-right{
+    display: none;
+}
+.rec-arrow-left{
+    display: none;
+}
