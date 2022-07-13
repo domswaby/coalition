@@ -19,3 +19,14 @@
 .site-title > div:last-child{
     color: var(--dark-blue-2);
 }
+
+@media only screen and (max-width: 768px){
+    .site-title{
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 550px){
+    .site-title{
+        font-size: 3.5rem;
+    }
+}
