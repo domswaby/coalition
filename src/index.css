@@ -1,4 +1,8 @@
 @import "./components/Card/card.css";
+@import "./components/History/history.css";
+@import "./components/Logo/logo.css";
+@import "./components/TopNav/topnav.css";
+@import "./components/BigNum/bignum.css";
 
 body {
   margin: 0;
@@ -12,4 +16,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root{
+  --gray-1: rgb(167, 167, 167);
+  --gray-2: rgb(95, 94, 94);
+  --dark-blue-1: rgba(13, 37, 110, 1.0);
+  --dark-blue-2: rgba(13, 37, 110, 0.8);
 }

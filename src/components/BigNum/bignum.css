@@ -1,0 +1,39 @@
+.bignum-wrap{
+    display: flex;
+    
+}
+.bignum-number{
+    font-size: 130px;
+    color: var(--gray-1);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+.bignum-title-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 6px;
+}
+.bignum-title{
+    font-size: 40px; 
+    color: var(--dark-blue-2); 
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+.square{
+    background-color: var(--gray-1);
+    height: 20px; 
+    width: 20px;
+}
+.history-bignum{
+    padding: 3rem 0 0 0;
+    width: 70%; 
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .history-bignum{
+        width: 90%;
+    }
+}
