@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BigNum from "../BigNum/BigNum";
+import BottomNav from "./BottomNav/BottomNav";
+import Schedule from "./Schedule/Schedule";
 
 const Team = () => {
     return (
@@ -19,6 +21,12 @@ const Team = () => {
                     <Link to="#">Mountain 2</Link>
                 </div>
             </div>
+            <div className="team-content-wrap">
+                <Schedule />
+            </div>
+            
+            <BottomNav />
+          
             {/* <Link to="/">Home</Link>
             <Link to="/history">History</Link> */}
         </>

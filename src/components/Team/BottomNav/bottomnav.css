@@ -1,0 +1,14 @@
+.bottom-nav-wrap{
+    background-color: var(--dark-blue-2);
+    padding: 5px 0;
+    height: calc(10vh - 10px);
+    display: flex;
+    align-items: center;
+}
+.bottom-nav-wrap>nav {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

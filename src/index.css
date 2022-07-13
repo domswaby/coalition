@@ -6,6 +6,8 @@
 @import "./components/Home/HomeNav/homenav.css";
 @import "./components/Home/home.css";
 @import "./components/Team/team.css";
+@import "./components/Team/BottomNav/bottomnav.css";
+@import "./components/Team/Schedule/schedule.css";
 
 body {
   margin: 0;
@@ -27,3 +29,4 @@ code {
   --dark-blue-1: rgba(13, 37, 110, 1.0);
   --dark-blue-2: rgba(13, 37, 110, 0.8);
 }
+
