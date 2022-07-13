@@ -24,6 +24,9 @@
 .logo-title > p:last-child{
     color: var(--dark-blue-1);
 }
+.logo-link{
+    text-decoration: none;
+}
 
 
 

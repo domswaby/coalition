@@ -26,9 +26,6 @@ const Team = () => {
             </div>
             
             <BottomNav />
-          
-            {/* <Link to="/">Home</Link>
-            <Link to="/history">History</Link> */}
         </>
     )
 }
