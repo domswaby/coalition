@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import Card from "../Card/Card";
-import TopNav from "../TopNav/TopNav";
+import TopNav from "./TopNav/TopNav";
 import BigNum from "../BigNum/BigNum";
 
 const History = () => {

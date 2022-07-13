@@ -1,8 +1,10 @@
 @import "./components/Card/card.css";
 @import "./components/History/history.css";
 @import "./components/Logo/logo.css";
-@import "./components/TopNav/topnav.css";
+@import "./components/History/TopNav/topnav.css";
 @import "./components/BigNum/bignum.css";
+@import "./components/Home/HomeNav/homenav.css";
+@import "./components/Home/home.css";
 
 body {
   margin: 0;

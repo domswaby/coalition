@@ -1,0 +1,21 @@
+.site-title-wrap{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: calc(100vh - 60px);
+    font-weight: 600; 
+}
+.site-title{
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    transform: translateY(-60%);
+}
+
+.site-title > div:first-child{
+    color: var(--gray-2);
+}
+.site-title > div:last-child{
+    color: var(--dark-blue-2);
+}

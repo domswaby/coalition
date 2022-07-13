@@ -22,9 +22,10 @@
     color: gray;
     font-size: 0.8rem;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 .navlinks-wrap > a:first-child {
-    margin-right: 5px;
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 768px) {
