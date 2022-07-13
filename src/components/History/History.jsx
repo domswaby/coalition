@@ -34,7 +34,7 @@ const History = () => {
                 <p className="history-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, delectus rem. Molestiae veniam minima atque labore vero asperiores praesentium, ab accusantium optio nihil unde magnam amet soluta, deserunt sint et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perspiciatis debitis eveniet, rerum quisquam quas exercitationem nulla dolor fuga autem accusantium a alias, laudantium adipisci beatae quaerat asperiores, nemo nisi.</p>
                 <div className="carousel-wrap">
                     <Carousel breakPoints={breakPoints}>
-                        {imageData.map((item) => <Card url={item.url} />)}
+                        {imageData.map((item) => <Card url={item.url} key={item.id}/>)}
                     </Carousel>
                 </div>
             </div>
